@@ -798,7 +798,7 @@ input[type="submit"] {
 }
 
 #header.upscrolled #mainnav > ul > li > a {
-	color: #777;
+	color: #0e1b3b;
 }
 
 #header.upscrolled #mainnav > ul > li > a:hover {
@@ -816,12 +816,12 @@ input[type="submit"] {
 
 #header.upscrolled #mainnav .social-links a {
 	background-color: rgba(0, 0, 0, 0.1);
-	color: rgba(0, 0, 0, 0.3);
+	color: #0e1b3b;
 }
 
 #header.upscrolled #mainnav .social-links a:hover {
-	background-color: #00bac9;
-	color: #333;
+	background-color: #0e1b3b;
+	color: #00bac9;
 }
 
 #header.upscrolled #mainnav > ul > li.has-children > a:after {
@@ -960,7 +960,7 @@ input[type="submit"] {
 }
 
 #mainnav ul.submenu > li > a {
-	color: #8b8b8b;
+	color: #0e1b3b;
     padding: 5px 30px;
     font-size: 14px;    
     display: block;
@@ -974,7 +974,8 @@ input[type="submit"] {
 }
 
 #mainnav ul.submenu > li > a:hover {
-	background-color: #272727;
+	background-color: #0e1b3b;
+    color: #fff;
 }
 
 #mainnav ul.submenu > li.sub-parent:hover::after {
