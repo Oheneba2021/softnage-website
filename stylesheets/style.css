@@ -194,7 +194,7 @@ body {
 	font: 15px/28px "Karla", sans-serif;
 	font-weight: 400;
 	background-color: #fff;		
-	color: #0e1b3b;
+	color: #777777;
 	line-height: 1.8;
 }
 
@@ -646,7 +646,7 @@ input[type="submit"] {
 .site-brand {
     padding: -10px;
 	background-color: #fff;
-	color: #0e1b3b;
+	color: #777;
 }
 
 .site-brand .logo {
@@ -664,10 +664,10 @@ input[type="submit"] {
     text-align: left;
     margin-bottom: 0;
     vertical-align: top;
-    border-right: 1px solid rgba(14, 28, 59, 0.1);
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
     padding-right: 38px;
     margin-right: 38px;
-    color: #0e1b3b;
+    color: #777;
 }
 
 .site-brand .header-widgets #text-3 {
@@ -798,7 +798,7 @@ input[type="submit"] {
 }
 
 #header.upscrolled #mainnav > ul > li > a {
-	color: #0e1b3b;
+	color: #777;
 }
 
 #header.upscrolled #mainnav > ul > li > a:hover {
@@ -810,26 +810,22 @@ input[type="submit"] {
 	color: #00bac9;
 }
 
-#header.upscrolled #mainnav > ul > li.home > a:hover{
-    color:#0e1b3b;
-}
-
 #header.upscrolled .menu-extra > li > a {
 	border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 #header.upscrolled #mainnav .social-links a {
 	background-color: rgba(0, 0, 0, 0.1);
-	color: #0e1b3b
+	color: rgba(0, 0, 0, 0.3);
 }
 
 #header.upscrolled #mainnav .social-links a:hover {
-	background-color: #0e1b3b;
-	color: #fff;
+	background-color: #00bac9;
+	color: #333;
 }
 
 #header.upscrolled #mainnav > ul > li.has-children > a:after {
-	border-top-color: rgba(14, 27, 59, 0.1);
+	border-top-color: rgba(0, 0, 0, 0.1);
 }
 
 .home-boxed #header.downscrolled,
@@ -964,7 +960,7 @@ input[type="submit"] {
 }
 
 #mainnav ul.submenu > li > a {
-	color: #0e1b3b;
+	color: #8b8b8b;
     padding: 5px 30px;
     font-size: 14px;    
     display: block;
@@ -978,8 +974,7 @@ input[type="submit"] {
 }
 
 #mainnav ul.submenu > li > a:hover {
-	background-color: #0e1b3b;
-    color: #FFF;
+	background-color: #272727;
 }
 
 #mainnav ul.submenu > li.sub-parent:hover::after {
@@ -1348,7 +1343,7 @@ input[type="submit"] {
     text-align: center;
     line-height: 32px;
     background-color: rgba(255, 255, 255, 0.4);
-    color: #0e1b3b;
+    color: #000000;
     float: left;
     margin-left: 10px;
     -webkit-border-radius: 2px;
@@ -1891,9 +1886,6 @@ blockquote {
 .boxed {
     overflow-x: hidden;
 }
-.box-content{
-    color:rgba(255,255,255,0.5);
-}
 
 .home-boxed .boxed {
 	width: 90%;
@@ -2190,7 +2182,7 @@ blockquote {
 }
 
 .go-top:hover {
-    background-color: #0e1b3b;
+    background-color: #333;
 }
 
 .go-top:hover i {
@@ -2200,7 +2192,7 @@ blockquote {
 /* Footer
 -------------------------------------------------------------- */
 .footer {
-    background-color: #0e1b3b;
+    background-color: #2b2a2a;
     background-position: top left;
     background-repeat: repeat;
     background-attachment: scroll;
@@ -2304,7 +2296,7 @@ blockquote {
     text-align: center;
     line-height: 32px;
     background: rgba(0, 0, 0, 0.1);
-    color: #0e1b3b;
+    color: rgba(0, 0, 0, 0.3);
     float: left;
     margin-left: 10px;
     -webkit-border-radius: 2px;
@@ -2315,7 +2307,7 @@ blockquote {
 }
 
 .footer .social-links a:hover {
-    color: #fff;
+    color: #333333;
 }
 
 .footer .social-links a {
@@ -2324,8 +2316,7 @@ blockquote {
     text-align: center;
     line-height: 32px;
     background: rgba(0, 0, 0, 0.1);
-    color: #0e1b3b;
-    ;
+    color: rgba(0, 0, 0, 0.3);
     float: left;
     margin-left: 10px;
     -webkit-border-radius: 2px;
@@ -2336,7 +2327,7 @@ blockquote {
 }
 
 .footer .social-links a:hover {
-	background-color: #0e1b3b;
+	background-color: #00bac9;
 }
 
 .footer .copyright {
@@ -2590,8 +2581,7 @@ blockquote {
 -------------------------------------------------------------- */
 .loading-overlay {
     background: #FFF;
-    color: #0e1b3b;
-    ;
+    color: #424242;
     position: fixed;
     left: 0;
     top: 0;
