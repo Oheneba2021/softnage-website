@@ -63,6 +63,10 @@
     }
 }
 
+.item h2{
+    color: #0e1b3b;
+}
+
 .homepage-technologies .domains .item.is-mobile {
     top: 886px
 }

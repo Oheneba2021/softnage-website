@@ -2193,11 +2193,11 @@ blockquote {
 /* Footer
 -------------------------------------------------------------- */
 .footer {
-    background-color: #2b2a2a;
+    background-color: #0e1b3b;
     background-position: top left;
     background-repeat: repeat;
     background-attachment: scroll;
-    color: rgb(230, 227, 227);
+    color: rgba(255, 255, 255,0.70);
 }
 
 .footer .footer-widgets {
