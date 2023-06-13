@@ -899,7 +899,7 @@ input[type="submit"] {
 /* submenu */
 #mainnav ul.submenu {
     position: absolute;
-    width: 212px;
+    width: 220px;
     background: #ebebeb;
     padding: 10px 0;
     margin: 0;
@@ -2189,7 +2189,9 @@ blockquote {
 .go-top:hover i {
 	color: #fff;
 }
-
+.grid-container{
+    display:grid;
+}
 /* Footer
 -------------------------------------------------------------- */
 .footer {
