@@ -695,14 +695,13 @@
 					<img src="http://donymasteel.com/assets/images/log.png" alt="">
 				</div>
 				<div class="swiper-slide">
-					<img src="https://ridgecondos.com.gh/wp-content/uploads/2023/02/main-logo.png" alt=""
-						style="height:100%;">
+					<img src="https://ridgecondos.com.gh/wp-content/uploads/2023/02/main-logo.png" alt="" style="height:auto;">
 				</div>
 				<div class="swiper-slide">
-					<img src="https://springsideacademy.com/images/logo.png" alt="" style="height:100%;">
+					<img src="https://springsideacademy.com/images/logo.png" alt="" style="height:auto;">
 				</div>
 				<div class="swiper-slide">
-					<img src="./images/new/candy-logo.png" alt="" style="height:100%;">
+					<img src="./images/new/candy-logo.png" alt="" style="height:auto;">
 				</div>
 				<!-- <div class="swiper-slide">Slide 6</div>
 			  <div class="swiper-slide">Slide 7</div>
@@ -829,14 +828,28 @@
 			loop: true,
 			speed: 1000,
 			autoplay: true,
-			slidesPerView: 3,
+			slidesPerView: getSlidesPerView(),
 			spaceBetween: 30,
 			pagination: {
 				el: ".swiper-pagination",
 				clickable: true,
 			},
 		});
+
+		function getSlidesPerView() {
+			if (window.innerWidth < 768) {
+				return 2; // Set slidesPerView to 2 for narrow view
+			} else {
+				return 4; // Default slidesPerView for wider view
+			}
+		}
+
+		window.addEventListener("resize", function () {
+			swiper.params.slidesPerView = getSlidesPerView();
+			swiper.update(); // Update swiper after the window is resized
+		});
 	</script>
+
 
 
 
